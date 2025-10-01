@@ -1,5 +1,5 @@
 import React from "react"
-import Oval3 from "../images/Oval Copy 3.png"
+import Oval3 from "../images/oval copy 3.png"
 
 const ContactForm = () => {
   return (

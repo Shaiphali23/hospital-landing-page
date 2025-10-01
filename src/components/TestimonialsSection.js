@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react"
 import axios from "axios"
-import comma from "../images/Comma.png"
+import comma from "../images/comma.png"
 import user1 from "../images/user-1.png"
-import user2 from "../images/user-2.png"
+// import user2 from "../images/user-2.png"
 
 const TestimonialsSection = () => {
   const [reviews, setReviews] = useState([])

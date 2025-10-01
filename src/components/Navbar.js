@@ -1,6 +1,6 @@
 import React, { useState } from "react"
-import Oval from "../images/Oval Copy.png"
-import Oval1 from "../images/Oval (1).png"
+import Oval from "../images/oval copy.png"
+import Oval1 from "../images/oval (1).png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)

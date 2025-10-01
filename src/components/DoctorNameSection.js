@@ -1,5 +1,5 @@
 import React from "react"
-import Oval2 from "../images/Oval Copy 2.png"
+import Oval2 from "../images/oval copy 2.png"
 
 const doctors = [
   { name: "Dr. Awaatif Al", specialization: "Dental Care" },
