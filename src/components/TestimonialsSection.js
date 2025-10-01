@@ -48,12 +48,18 @@ const TestimonialsSection = () => {
               >
                 {/* Quote Circle */}
                 <div className="absolute -top-4 -right-4 sm:-top-6 sm:-right-6 w-16 h-16 sm:w-[83px] sm:h-[83px] rounded-full bg-[#007FF4] flex items-center justify-center">
-                  <img src={comma} alt="quote" className="w-4 h-4 sm:w-6 sm:h-6" />
+                  <img
+                    src={comma}
+                    alt="quote"
+                    className="w-4 h-4 sm:w-6 sm:h-6"
+                  />
                 </div>
 
                 {/* Review Text */}
                 <p className="text-[#002348] font-normal text-[16px] sm:text-[18px] md:text-[20px] leading-[26px] sm:leading-[32px] md:leading-[39px] mb-4 sm:mb-6">
-                  {review.Reviews || review.review_text || "No review text available"}
+                  {review.Reviews ||
+                    review.review_text ||
+                    "No review text available"}
                 </p>
 
                 {/* Reviewer Info */}
